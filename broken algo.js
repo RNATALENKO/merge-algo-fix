@@ -83,7 +83,7 @@ function merge(target, source){
 
                 //issues that target[key] is undefined, which means the property doesn't exist, and undefined gets pushed into array
 
-                console.log("lost keys here...", target[key]);
+                console.log("undefined target[key]", target[key]);
 
                 const arr = [];
 

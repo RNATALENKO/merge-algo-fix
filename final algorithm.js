@@ -161,6 +161,6 @@ merge(target, source)
 
 console.log(target)
 
-console.log(target.c.k.c.d)
+console.log(target.c.k.c.d, "the algorithm works!")
 
 
