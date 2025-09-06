@@ -154,13 +154,14 @@ function merge(target, source){
         }
 
 
+    return target;
 
 }
 
-merge(target, source)
+const merged = merge(target, source)
 
-console.log(target)
+console.log(merged)
 
-console.log(target.c.k.c.d, "the algorithm works!")
+console.log(merged.c.k.c.d, "the algorithm works!")
 
 
